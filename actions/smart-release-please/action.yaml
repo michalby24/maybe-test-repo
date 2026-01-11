@@ -21,36 +21,6 @@ runs:
       with:
         python-version: '3.14'
 
-    - name: Promote RC to Stable (Main Only)
-      id: promote
-      if: github.ref == 'refs/heads/main'
-      shell: bash
-      env:
-        GH_TOKEN: ${{ inputs.token }}
-      run: |
-        if [ ! -f .release-please-manifest.json ]; then
-          echo "No .release-please-manifest.json found. Skipping."
-          exit 0
-        fi
-
-        CURRENT_VER=$(jq -r '.["."]' .release-please-manifest.json)
-        echo "Current Manifest Version: $CURRENT_VER"
-
-        if [[ "$CURRENT_VER" == *"-"* ]]; then
-          STABLE_VER="${CURRENT_VER%%-*}"
-          echo "🚨 Pre-release detected on main! Promoting to $STABLE_VER"
-
-          git config user.name "mapcolonies[bot]"
-          git config user.email "devops[bot]@mapcolonies.com"
-
-          git commit --allow-empty -m "chore: promote to stable $STABLE_VER" -m "Release-As: $STABLE_VER"
-          git push "https://x-access-token:${{ inputs.token }}@github.com/${{ github.repository }}.git" HEAD:main
-          
-          echo "skip=true" >> $GITHUB_OUTPUT
-        else
-          echo "skip=false" >> $GITHUB_OUTPUT
-        fi
-
     - name: Calculate Correct RC Version
       id: calc
       if: ${{ github.ref_name == 'next' }}
