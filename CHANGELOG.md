@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.2](https://github.com/michalby24/maybe-test-repo/compare/v0.0.1...v0.0.2) (2026-01-11)
+
+
+### Bug Fixes
+
+* test ([6cbc579](https://github.com/michalby24/maybe-test-repo/commit/6cbc579c8d13da7300234ac23e1e786dd07fa855))
+
 ## [0.0.1](https://github.com/michalby24/maybe-test-repo/compare/v0.0.1-rc.4...v0.0.1) (2026-01-11)
 
 
