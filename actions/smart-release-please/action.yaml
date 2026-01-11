@@ -52,7 +52,7 @@ runs:
 
     - name: Close Stale Release PRs
       # Only run if we are NOT skipping (meaning we are ready to run release-please)
-      if: env.SKIP_RELEASE != 'true'
+      if: env.SKIP_RELEASE != 'true' && ${{ !contains(github.ref, 'release-please--branches') }}
       shell: bash
       env:
         GH_TOKEN: ${{ inputs.token }}
