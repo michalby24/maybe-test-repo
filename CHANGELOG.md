@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.1-rc.3](https://github.com/michalby24/maybe-test-repo/compare/maybe-test-repo-v0.0.1-rc.3...maybe-test-repo-v0.0.1-rc.3) (2026-01-11)
+
+
+### Miscellaneous Chores
+
+* enforce correct rc version ([ab95943](https://github.com/michalby24/maybe-test-repo/commit/ab959439527941b25d2624dfc78bdf95a656d16e))
+
 ## 0.0.1-rc.3 (2026-01-11)
 
 
