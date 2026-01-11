@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.0.3](https://github.com/michalby24/maybe-test-repo/compare/v0.0.2...v0.0.3) (2026-01-11)
+
+
+### Bug Fixes
+
+* prevent stale release PRs from closing on release-please branches ([336d63f](https://github.com/michalby24/maybe-test-repo/commit/336d63f0cc77f61af8983a1930784dec2d2454f4))
+
+## [0.0.2](https://github.com/michalby24/maybe-test-repo/compare/v0.0.1...v0.0.2) (2026-01-11)
+
+
+### Bug Fixes
+
+* test ([6cbc579](https://github.com/michalby24/maybe-test-repo/commit/6cbc579c8d13da7300234ac23e1e786dd07fa855))
+
+## [0.0.1](https://github.com/michalby24/maybe-test-repo/compare/v0.0.1-rc.4...v0.0.1) (2026-01-11)
+
+
+### Features
+
+* next merge ([#7](https://github.com/michalby24/maybe-test-repo/issues/7)) ([4f26eb0](https://github.com/michalby24/maybe-test-repo/commit/4f26eb0e0ae9ca9fb4a9b03270923ff7965ef7b4))
+
+
+### Miscellaneous Chores
+
+* promote to stable 0.0.1 ([f556cfd](https://github.com/michalby24/maybe-test-repo/commit/f556cfdce9c1a40ecb9e19a4ca7c3f3abb2967a4))
+* promote to stable 0.0.1 ([d5fdb43](https://github.com/michalby24/maybe-test-repo/commit/d5fdb4391a79c23c01987ccc00f8ce84f8898020))
+* promote to stable 0.0.1 ([16311f1](https://github.com/michalby24/maybe-test-repo/commit/16311f1d2838e1ca211b6d72c3a9b8d848399fb6))
+* promote to stable 0.0.1 ([132b66f](https://github.com/michalby24/maybe-test-repo/commit/132b66ff9e6cf68539964e3934200e005f546d24))
+* promote to stable 0.0.1 ([92df435](https://github.com/michalby24/maybe-test-repo/commit/92df435dedfa4957749f6bf5490ed8bb74526f7b))
+* promote to stable 0.0.1 ([d757df0](https://github.com/michalby24/maybe-test-repo/commit/d757df0e86c7b426bc23fdd271e605f55b9480bc))
+* promote to stable 0.0.1 ([5ac2128](https://github.com/michalby24/maybe-test-repo/commit/5ac2128154a03072af354398aa19114ab9f9f4f7))
+
 ## [0.0.1-rc.4](https://github.com/michalby24/maybe-test-repo/compare/maybe-test-repo-v0.0.1-rc.3...maybe-test-repo-v0.0.1-rc.4) (2026-01-11)
 
 
