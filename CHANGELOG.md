@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.0.1-rc.4](https://github.com/michalby24/maybe-test-repo/compare/maybe-test-repo-v0.0.1-rc.3...maybe-test-repo-v0.0.1-rc.4) (2026-01-11)
+
+
+### Bug Fixes
+
+* login bug ([#5](https://github.com/michalby24/maybe-test-repo/issues/5)) ([542daf2](https://github.com/michalby24/maybe-test-repo/commit/542daf2a5100aee28d77dae5fed5ff412f1e3e19))
+
+
+### Miscellaneous Chores
+
+* enforce correct rc version ([81e4ef9](https://github.com/michalby24/maybe-test-repo/commit/81e4ef9d36146143d0408fcfcf24519321c12397))
+* enforce correct rc version ([ab95943](https://github.com/michalby24/maybe-test-repo/commit/ab959439527941b25d2624dfc78bdf95a656d16e))
+
 ## 0.0.1-rc.3 (2026-01-11)
 
 
