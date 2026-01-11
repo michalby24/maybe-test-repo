@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.1](https://github.com/michalby24/maybe-test-repo/compare/v0.0.1-rc.4...v0.0.1) (2026-01-11)
+
+
+### Features
+
+* next merge ([#7](https://github.com/michalby24/maybe-test-repo/issues/7)) ([4f26eb0](https://github.com/michalby24/maybe-test-repo/commit/4f26eb0e0ae9ca9fb4a9b03270923ff7965ef7b4))
+
+
+### Miscellaneous Chores
+
+* promote to stable 0.0.1 ([5ac2128](https://github.com/michalby24/maybe-test-repo/commit/5ac2128154a03072af354398aa19114ab9f9f4f7))
+
 ## [0.0.1-rc.4](https://github.com/michalby24/maybe-test-repo/compare/maybe-test-repo-v0.0.1-rc.3...maybe-test-repo-v0.0.1-rc.4) (2026-01-11)
 
 
