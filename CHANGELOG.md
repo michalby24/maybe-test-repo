@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4-rc.4](https://github.com/michalby24/maybe-test-repo/compare/v0.0.3...v0.0.4-rc.4) (2026-01-11)
+
+
+### Miscellaneous Chores
+
+* enforce correct rc version ([1caaadb](https://github.com/michalby24/maybe-test-repo/commit/1caaadbd165cf700c8cd69f720528105205fcc30))
+
 ## [0.0.3](https://github.com/michalby24/maybe-test-repo/compare/v0.0.2...v0.0.3) (2026-01-11)
 
 
